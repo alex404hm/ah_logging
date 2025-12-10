@@ -1,4 +1,3 @@
-DROP TABLE IF EXISTS player_logs;
 CREATE TABLE IF NOT EXISTS player_logs (
     id INT AUTO_INCREMENT PRIMARY KEY,
     steam VARCHAR(20),
